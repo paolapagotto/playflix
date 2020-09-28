@@ -16,6 +16,7 @@
 		BB65951B252274CA003226D6 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = BB65951A252274CA003226D6 /* google.png */; };
 		BB65951D252274D2003226D6 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = BB65951C252274D2003226D6 /* facebook.png */; };
 		BB65951F252277D8003226D6 /* playflix-limpo.png in Resources */ = {isa = PBXBuildFile; fileRef = BB65951E252277D8003226D6 /* playflix-limpo.png */; };
+		BB7D4CE325228D40008530F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4CE225228D40008530F2 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BB65951A252274CA003226D6 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
 		BB65951C252274D2003226D6 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		BB65951E252277D8003226D6 /* playflix-limpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playflix-limpo.png"; sourceTree = "<group>"; };
+		BB7D4CE225228D40008530F2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				BB65950625227024003226D6 /* AppDelegate.swift */,
 				BB65950825227024003226D6 /* ViewController.swift */,
+				BB7D4CE225228D40008530F2 /* User.swift */,
 				BB65950A25227024003226D6 /* Main.storyboard */,
 				BB65951825227053003226D6 /* PLAYFLIX.jpg */,
 				BB65951E252277D8003226D6 /* playflix-limpo.png */,
@@ -153,6 +156,7 @@
 			files = (
 				BB65950925227024003226D6 /* ViewController.swift in Sources */,
 				BB65950725227024003226D6 /* AppDelegate.swift in Sources */,
+				BB7D4CE325228D40008530F2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

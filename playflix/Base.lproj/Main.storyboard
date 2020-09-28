@@ -37,7 +37,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBw-BN-nRr">
                                 <rect key="frame" x="60" y="366" width="255" height="46"/>
@@ -157,6 +157,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="buttonLogIn" destination="WBw-BN-nRr" id="HSf-wj-edh"/>
                         <outlet property="imageViewFacebookSignIn" destination="VlN-Mb-Mfb" id="BjX-c6-Us8"/>
                         <outlet property="imageViewGoogleSignIn" destination="KU1-ac-iUF" id="qnk-vO-5r7"/>
                         <outlet property="imageViewLogo" destination="g6O-dk-44A" id="JnQ-3i-YbU"/>
