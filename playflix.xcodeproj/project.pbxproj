@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB65950725227024003226D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB65950625227024003226D6 /* AppDelegate.swift */; };
+		BB65950925227024003226D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB65950825227024003226D6 /* ViewController.swift */; };
+		BB65950C25227024003226D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB65950A25227024003226D6 /* Main.storyboard */; };
+		BB65950E25227025003226D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB65950D25227025003226D6 /* Assets.xcassets */; };
+		BB65951125227025003226D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB65950F25227025003226D6 /* LaunchScreen.storyboard */; };
+		BB65951925227053003226D6 /* PLAYFLIX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB65951825227053003226D6 /* PLAYFLIX.jpg */; };
+		BB65951B252274CA003226D6 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = BB65951A252274CA003226D6 /* google.png */; };
+		BB65951D252274D2003226D6 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = BB65951C252274D2003226D6 /* facebook.png */; };
+		BB65951F252277D8003226D6 /* playflix-limpo.png in Resources */ = {isa = PBXBuildFile; fileRef = BB65951E252277D8003226D6 /* playflix-limpo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB65950325227024003226D6 /* playflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB65950625227024003226D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB65950825227024003226D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB65950B25227024003226D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB65950D25227025003226D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB65951025227025003226D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB65951225227025003226D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB65951825227053003226D6 /* PLAYFLIX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PLAYFLIX.jpg; sourceTree = "<group>"; };
+		BB65951A252274CA003226D6 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		BB65951C252274D2003226D6 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		BB65951E252277D8003226D6 /* playflix-limpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playflix-limpo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB65950025227024003226D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6594FA25227024003226D6 = {
+			isa = PBXGroup;
+			children = (
+				BB65950525227024003226D6 /* playflix */,
+				BB65950425227024003226D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB65950425227024003226D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB65950325227024003226D6 /* playflix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB65950525227024003226D6 /* playflix */ = {
+			isa = PBXGroup;
+			children = (
+				BB65950625227024003226D6 /* AppDelegate.swift */,
+				BB65950825227024003226D6 /* ViewController.swift */,
+				BB65950A25227024003226D6 /* Main.storyboard */,
+				BB65951825227053003226D6 /* PLAYFLIX.jpg */,
+				BB65951E252277D8003226D6 /* playflix-limpo.png */,
+				BB65951C252274D2003226D6 /* facebook.png */,
+				BB65951A252274CA003226D6 /* google.png */,
+				BB65950D25227025003226D6 /* Assets.xcassets */,
+				BB65950F25227025003226D6 /* LaunchScreen.storyboard */,
+				BB65951225227025003226D6 /* Info.plist */,
+			);
+			path = playflix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB65950225227024003226D6 /* playflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB65951525227025003226D6 /* Build configuration list for PBXNativeTarget "playflix" */;
+			buildPhases = (
+				BB6594FF25227024003226D6 /* Sources */,
+				BB65950025227024003226D6 /* Frameworks */,
+				BB65950125227024003226D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = playflix;
+			productName = playflix;
+			productReference = BB65950325227024003226D6 /* playflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6594FB25227024003226D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Paola Pagotto";
+				TargetAttributes = {
+					BB65950225227024003226D6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = BB6594FE25227024003226D6 /* Build configuration list for PBXProject "playflix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6594FA25227024003226D6;
+			productRefGroup = BB65950425227024003226D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB65950225227024003226D6 /* playflix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB65950125227024003226D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB65951925227053003226D6 /* PLAYFLIX.jpg in Resources */,
+				BB65951125227025003226D6 /* LaunchScreen.storyboard in Resources */,
+				BB65951D252274D2003226D6 /* facebook.png in Resources */,
+				BB65950E25227025003226D6 /* Assets.xcassets in Resources */,
+				BB65951F252277D8003226D6 /* playflix-limpo.png in Resources */,
+				BB65951B252274CA003226D6 /* google.png in Resources */,
+				BB65950C25227024003226D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6594FF25227024003226D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB65950925227024003226D6 /* ViewController.swift in Sources */,
+				BB65950725227024003226D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB65950A25227024003226D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB65950B25227024003226D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB65950F25227025003226D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB65951025227025003226D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB65951325227025003226D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB65951425227025003226D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB65951625227025003226D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YZ5M2YT9Z;
+				INFOPLIST_FILE = playflix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pp.playflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB65951725227025003226D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YZ5M2YT9Z;
+				INFOPLIST_FILE = playflix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pp.playflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6594FE25227024003226D6 /* Build configuration list for PBXProject "playflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB65951325227025003226D6 /* Debug */,
+				BB65951425227025003226D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB65951525227025003226D6 /* Build configuration list for PBXNativeTarget "playflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB65951625227025003226D6 /* Debug */,
+				BB65951725227025003226D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6594FB25227024003226D6 /* Project object */;
+}
