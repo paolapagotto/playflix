@@ -5,5 +5,9 @@
 
 
 
-## Colaboration
+## Colaborattors
+
+* [Rafael Nunes Rios](https://github.com/rafaelnunesr)
+
+* [David Souza](https://github.com/souzapd)
 
