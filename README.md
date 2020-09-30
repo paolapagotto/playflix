@@ -5,7 +5,7 @@
 
 
 
-## Colaborattors
+## Collaborattors
 
 * [Rafael Nunes Rios](https://github.com/rafaelnunesr)
 
